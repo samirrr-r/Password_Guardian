@@ -140,5 +140,9 @@ else:
     key=geneKey()
     print("This is your new key: "+str(key)[2:45]+" \nRemember this key because this is the only way you can decrypt your file."
                                                   "There is no way to reset it if you lose it.")
-
+    with open(fileName,"w") as newFile:
+        app=input("What is the domain/app name? enter nothing to quit")
+        user=input("What is the username?")
+        password=input("What is the password")
+        while
 
